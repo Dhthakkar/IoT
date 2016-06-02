@@ -1,0 +1,44 @@
+#container{
+	width: 1000px;
+	margin: 0px auto;
+	padding:0px;
+	border:solid 1px white;
+}
+
+#font-type{
+	font-family: Arial, sans-serif;
+	color: black;
+	font-size: 40px;
+}
+
+#content{
+	width: 960px;
+	background-color: white;
+	margin: 0px auto;
+	padding: 20px 30px 20px 30px;
+	text-align: justify;
+	font-size: 3	0px;
+}
+
+.clear
+{
+	clear:both;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4{
+	margin: 0px auto;
+}
+
+body{
+	background-color: #EEE;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+textarea
+{
+	resize:none;
+}

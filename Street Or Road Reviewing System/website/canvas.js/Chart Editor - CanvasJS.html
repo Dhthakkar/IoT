@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)http://canvasjs.com/editor/?id=http://canvasjs.com/example/gallery/dynamic/realtime_line/ -->
+<html lang="en-US" prefix="og: http://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Chart Editor - CanvasJS</title>
+  <!-- <title></title> -->
+
+
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="http://canvasjs.com/xmlrpc.php">
+
+  <link rel="shortcut icon" href="http://canvasjs.com/favicon.ico">
+  <script async="" src="./Chart Editor - CanvasJS_files/async-ads.js"></script><script type="text/javascript" async="" src="./Chart Editor - CanvasJS_files/cse.js"></script><script type="text/javascript" async="" src="./Chart Editor - CanvasJS_files/dc.js"></script><script>
+    (function(e,t){typeof module!="undefined"&&module.exports?module.exports=t():typeof define=="function"&&define.amd?define(t):this[e]=t()})("$script",function(){function p(e,t){for(var n=0,i=e.length;n<i;++n)if(!t(e[n]))return r;return 1}function d(e,t){p(e,function(e){return!t(e)})}function v(e,t,n){function g(e){return e.call?e():u[e]}function y(){if(!--h){u[o]=1,s&&s();for(var e in f)p(e.split("|"),g)&&!d(f[e],g)&&(f[e]=[])}}e=e[i]?e:[e];var r=t&&t.call,s=r?t:n,o=r?e.join(""):t,h=e.length;return setTimeout(function(){d(e,function t(e,n){if(e===null)return y();e=!n&&e.indexOf(".js")===-1&&!/^https?:\/\//.test(e)&&c?c+e+".js":e;if(l[e])return o&&(a[o]=1),l[e]==2?y():setTimeout(function(){t(e,!0)},0);l[e]=1,o&&(a[o]=1),m(e,y)})},0),v}function m(n,r){var i=e.createElement("script"),u;i.onload=i.onerror=i[o]=function(){if(i[s]&&!/^c|loade/.test(i[s])||u)return;i.onload=i[o]=null,u=1,l[n]=2,r()},i.async=1,i.src=h?n+(n.indexOf("?")===-1?"?":"&")+h:n,t.insertBefore(i,t.lastChild)}var e=document,t=e.getElementsByTagName("head")[0],n="string",r=!1,i="push",s="readyState",o="onreadystatechange",u={},a={},f={},l={},c,h;return v.get=m,v.order=function(e,t,n){(function r(i){i=e.shift(),e.length?v(i,r):v(i,t,n)})()},v.path=function(e){c=e},v.urlArgs=function(e){h=e},v.ready=function(e,t,n){e=e[i]?e:[e];var r=[];return!d(e,function(e){u[e]||r[i](e)})&&p(e,function(e){return u[e]})?t():!function(e){f[e]=f[e]||[],f[e][i](t),n&&n(r)}(e.join("|")),v},v.done=function(e){v([null],e)},v})		
+  </script>
+
+  
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://canvasjs.com/editor/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chart Editor - CanvasJS">
+<meta property="og:url" content="http://canvasjs.com/editor/">
+<meta property="og:site_name" content="CanvasJS">
+<!-- / Yoast SEO plugin. -->
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/canvasjs.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Chart Editor - CanvasJS_files/wp-emoji-release.min.js" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="BsCmCcmCusPre_CSS-css" href="./Chart Editor - CanvasJS_files/bs-cm-ccm-cus-pre.css" type="text/css" media="all">
+<link rel="stylesheet" id="mc4wp-form-themes-css" href="./Chart Editor - CanvasJS_files/form-themes.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="./Chart Editor - CanvasJS_files/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="./Chart Editor - CanvasJS_files/jquery.js"></script>
+<script type="text/javascript" src="./Chart Editor - CanvasJS_files/jquery-migrate.min.js"></script>
+<link rel="https://api.w.org/" href="http://canvasjs.com/wp-json/">
+<link rel="shortlink" href="http://canvasjs.com/?p=2461">
+<link rel="alternate" type="application/json+oembed" href="http://canvasjs.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcanvasjs.com%2Feditor%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://canvasjs.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcanvasjs.com%2Feditor%2F&amp;format=xml">
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		  <!-- le styles -->
+
+  <!--
+  <link href="http://canvasjs.com/wp-content/themes/bootstrap_child/assets/css/bs-cm-ccm-cus-pre.css" rel="stylesheet">
+-->
+
+  <!--[if lt IE 9]>
+    <script type="text/javascript"  src="http://canvasjs.com/wp-content/themes/bootstrap_child/assets/css/respond.min.js">
+	<script type="text/javascript" src = "http://canvasjs.com/wp-content/themes/bootstrap_child/assets/js/jquery-1.8.3.min.js"> </script>
+  <![endif]-->
+
+
+  <script>
+  var jsFiles = {
+      CanvasJS    :   '/assets/script/canvasjs.min.js',
+      BsCcForPreUnvInvDem :   "http://canvasjs.com/wp-content/themes/bootstrap_child/assets/js/bs-cc-for-pre-unv-inv-dem.js",
+      JQueryUiJS : "http://canvasjs.com/wp-content/themes/bootstrap_child/assets/js/jquery-ui.js"
+  };
+
+  $script(jsFiles.CanvasJS,'CanvasJS');
+  $script(jsFiles.BsCcForPreUnvInvDem,'BsCcForPreUnvInvDem');
+  </script>
+
+  	<script type="text/javascript">
+
+	(function(d){"function"===typeof define&&define.amd?define(["jquery"],d):"object"===typeof exports?module.exports=d(require("jquery")):d(jQuery)})(function(d){function p(b){b=e.json?JSON.stringify(b):String(b);return e.raw?b:encodeURIComponent(b)}function n(b,g){var a;if(e.raw)a=b;else a:{var c=b;0===c.indexOf('"')&&(c=c.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,"\\"));try{c=decodeURIComponent(c.replace(l," "));a=e.json?JSON.parse(c):c;break a}catch(h){}a=void 0}return d.isFunction(g)?g(a):
+a}var l=/\+/g,e=d.cookie=function(b,g,a){if(1<arguments.length&&!d.isFunction(g)){a=d.extend({},e.defaults,a);if("number"===typeof a.expires){var c=a.expires,h=a.expires=new Date;h.setMilliseconds(h.getMilliseconds()+864E5*c)}return document.cookie=[e.raw?b:encodeURIComponent(b),"=",p(g),a.expires?"; expires="+a.expires.toUTCString():"",a.path?"; path="+a.path:"",a.domain?"; domain="+a.domain:"",a.secure?"; secure":""].join("")}for(var c=b?void 0:{},h=document.cookie?document.cookie.split("; "):[],
+m=0,l=h.length;m<l;m++){var f=h[m].split("="),k;k=f.shift();k=e.raw?k:decodeURIComponent(k);f=f.join("=");if(b===k){c=n(f,g);break}b||void 0===(f=n(f))||(c[k]=f)}return c};e.defaults={};d.removeCookie=function(b,e){d.cookie(b,"",d.extend({},e,{expires:-1}));return!d.cookie(b)}});
+	
+		var isModernBrowser = (!!document.createElement("canvas").getContext);
+		var countryNames = { AF: "Afghanistan", AX: "Aland Islands", AL: "Albania", DZ: "Algeria", AS: "American Samoa", AD: "Andorra", AO: "Angola", AI: "Anguilla", AQ: "Antarctica", AG: "Antigua and Barbuda", AR: "Argentina", AM: "Armenia", AW: "Aruba", AU: "Australia", AT: "Austria", AZ: "Azerbaijan", BS: "Bahamas", BH: "Bahrain", BD: "Bangladesh", BB: "Barbados", BY: "Belarus", BE: "Belgium", BZ: "Belize", BJ: "Benin", BM: "Bermuda", BT: "Bhutan", BO: "Bolivia, Plurinational State of", BQ: "Bonaire, Sint Eustatius and Saba", BA: "Bosnia and Herzegovina", BW: "Botswana", BV: "Bouvet Island", BR: "Brazil", IO: "British Indian Ocean Territory", BN: "Brunei Darussalam", BG: "Bulgaria", BF: "Burkina Faso", BI: "Burundi", KH: "Cambodia", CM: "Cameroon", CA: "Canada", CV: "Cape Verde", KY: "Cayman Islands", CF: "Central African Republic", TD: "Chad", CL: "Chile", CN: "China", CX: "Christmas Island", CC: "Cocos (Keeling) Islands", CO: "Colombia", KM: "Comoros", CG: "Congo", CD: "Congo, the Democratic Republic of the", CK: "Cook Islands", CR: "Costa Rica", CI: "CÃ´te d'Ivoire", HR: "Croatia", CU: "Cuba", CW: "CuraÃ§ao", CY: "Cyprus", CZ: "Czech Republic", DK: "Denmark", DJ: "Djibouti", DM: "Dominica", DO: "Dominican Republic", EC: "Ecuador", EG: "Egypt", SV: "El Salvador", GQ: "Equatorial Guinea", ER: "Eritrea", EE: "Estonia", ET: "Ethiopia", FK: "Falkland Islands (Malvinas)", FO: "Faroe Islands", FJ: "Fiji", FI: "Finland", FR: "France", GF: "French Guiana", PF: "French Polynesia", TF: "French Southern Territories", GA: "Gabon", GM: "Gambia", GE: "Georgia", DE: "Germany", GH: "Ghana", GI: "Gibraltar", GR: "Greece", GL: "Greenland", GD: "Grenada", GP: "Guadeloupe", GU: "Guam", GT: "Guatemala", GG: "Guernsey", GN: "Guinea", GW: "Guinea-Bissau", GY: "Guyana", HT: "Haiti", HM: "Heard Island and McDonald Islands", VA: "Holy See (Vatican City State)", HN: "Honduras", HK: "Hong Kong", HU: "Hungary", IS: "Iceland", IN: "India", ID: "Indonesia", IR: "Iran, Islamic Republic of", IQ: "Iraq", IE: "Ireland", IM: "Isle of Man", IL: "Israel", IT: "Italy", JM: "Jamaica", JP: "Japan", JE: "Jersey", JO: "Jordan", KZ: "Kazakhstan", KE: "Kenya", KI: "Kiribati", KP: "Korea, Democratic People's Republic of", KR: "Korea, Republic of", KW: "Kuwait", KG: "Kyrgyzstan", LA: "Lao People's Democratic Republic", LV: "Latvia", LB: "Lebanon", LS: "Lesotho", LR: "Liberia", LY: "Libya", LI: "Liechtenstein", LT: "Lithuania", LU: "Luxembourg", MO: "Macao", MK: "Macedonia, the Former Yugoslav Republic of", MG: "Madagascar", MW: "Malawi", MY: "Malaysia", MV: "Maldives", ML: "Mali", MT: "Malta", MH: "Marshall Islands", MQ: "Martinique", MR: "Mauritania", MU: "Mauritius", YT: "Mayotte", MX: "Mexico", FM: "Micronesia, Federated States of", MD: "Moldova, Republic of", MC: "Monaco", MN: "Mongolia", ME: "Montenegro", MS: "Montserrat", MA: "Morocco", MZ: "Mozambique", MM: "Myanmar", NA: "Namibia", NR: "Nauru", NP: "Nepal", NL: "Netherlands", NC: "New Caledonia", NZ: "New Zealand", NI: "Nicaragua", NE: "Niger", NG: "Nigeria", NU: "Niue", NF: "Norfolk Island", MP: "Northern Mariana Islands", NO: "Norway", OM: "Oman", PK: "Pakistan", PW: "Palau", PS: "Palestine, State of", PA: "Panama", PG: "Papua New Guinea", PY: "Paraguay", PE: "Peru", PH: "Philippines", PN: "Pitcairn", PL: "Poland", PT: "Portugal", PR: "Puerto Rico", QA: "Qatar", RE: "RÃ©union", RO: "Romania", RU: "Russian Federation", RW: "Rwanda", BL: "Saint BarthÃ©lemy", SH: "Saint Helena, Ascension and Tristan da Cunha", KN: "Saint Kitts and Nevis", LC: "Saint Lucia", MF: "Saint Martin (French part)", PM: "Saint Pierre and Miquelon", VC: "Saint Vincent and the Grenadines", WS: "Samoa", SM: "San Marino", ST: "Sao Tome and Principe", SA: "Saudi Arabia", SN: "Senegal", RS: "Serbia", SC: "Seychelles", SL: "Sierra Leone", SG: "Singapore", SX: "Sint Maarten (Dutch part)", SK: "Slovakia", SI: "Slovenia", SB: "Solomon Islands", SO: "Somalia", ZA: "South Africa", GS: "South Georgia and the South Sandwich Islands", SS: "South Sudan", ES: "Spain", LK: "Sri Lanka", SD: "Sudan", SR: "Suriname", SJ: "Svalbard and Jan Mayen", SZ: "Swaziland", SE: "Sweden", CH: "Switzerland", SY: "Syrian Arab Republic", TW: "Taiwan, Province of China", TJ: "Tajikistan", TZ: "Tanzania, United Republic of", TH: "Thailand", TL: "Timor-Leste", TG: "Togo", TK: "Tokelau", TO: "Tonga", TT: "Trinidad and Tobago", TN: "Tunisia", TR: "Turkey", TM: "Turkmenistan", TC: "Turks and Caicos Islands", TV: "Tuvalu", UG: "Uganda", UA: "Ukraine", AE: "United Arab Emirates", GB: "United Kingdom", US: "United States", UM: "United States Minor Outlying Islands", UY: "Uruguay", UZ: "Uzbekistan", VU: "Vanuatu", VE: "Venezuela, Bolivarian Republic of", VN: "Viet Nam", VG: "Virgin Islands, British", VI: "Virgin Islands, U.S.", WF: "Wallis and Futuna", EH: "Western Sahara", YE: "Yemen", ZM: "Zambia", ZW: "Zimbabwe" };	
+		var topCountries = ["AU","NZ","GB","AT","CH","CZ","DE","DK","IE","IS","SK","ES","ZA","IL","KR","SG","US","CA"];		
+		var cfCountryCode = jQuery.cookie("cfCountryCode") || null;
+		//console.log(cfCountryCode);
+		//var cfCountryCode = "N/A";
+		var countryCodeCallbacks = [];
+		
+		function getCountryCode(fcn){
+			if(cfCountryCode !== null)
+				fcn(cfCountryCode);
+			else
+				countryCodeCallbacks.push(fcn);
+		}
+		
+					var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-38086017-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		
+	</script>
+
+  <!--[if IE 6]>
+    <link href="http://canvasjs.com/wp-content/themes/bootstrap_child/assets/css/ie6.min.css" rel="stylesheet">
+  <![endif]--><script async="" src="./Chart Editor - CanvasJS_files/canvasjs.min.js"></script><script async="" src="./Chart Editor - CanvasJS_files/bs-cc-for-pre-unv-inv-dem.js"></script><script async="" src="./Chart Editor - CanvasJS_files/agile-min.js"></script>
+<script type="text/javascript" async="" src="./Chart Editor - CanvasJS_files/agile-webrules-min.js"></script><script src="./Chart Editor - CanvasJS_files/jsapi" type="text/javascript"></script><link type="text/css" href="./Chart Editor - CanvasJS_files/default+en.css" rel="stylesheet"><link type="text/css" href="./Chart Editor - CanvasJS_files/default.css" rel="stylesheet"><script type="text/javascript" src="./Chart Editor - CanvasJS_files/default+en.I.js"></script><style type="text/css">
+</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gscsep_a{display:none}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gsfe_a{border:1px solid #b9b9b9;border-top-color:#a0a0a0;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);}.gsfe_b{border:1px solid #4d90fe;outline:none;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);}.gssb_a{padding:0 9px}.gsib_a{padding-right:8px;padding-left:8px}.gsst_a{padding-top:3px}.gssb_e{border:0}.gssb_l{margin:5px 0}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style></head>
+<body class="page page-id-2461 page-template page-template-page-editor page-template-page-editor-php" data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">
+  <div id="wrap">
+
+    <div class="navbar navbar-inverse navbar-relative-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="http://canvasjs.com/" title="CanvasJS" rel="home">CanvasJS</a>
+
+          <div class="nav-collapse collapse"><ul id="main-menu" class="nav"><li id="menu-item-8589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8589"><a title="javascript charts" href="http://canvasjs.com/javascript-charts/">charts gallery    <i class="icon-picture"></i></a></li>
+<li id="menu-item-3166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3166"><a href="http://canvasjs.com/download-html5-charting-graphing-library/">download   <i class="icon-download-alt"></i></a></li>
+<li id="menu-item-4170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4170"><a href="http://canvasjs.com/license-canvasjs/">buy  <i class="icon-shopping-cart"></i></a></li>
+<li id="menu-item-3165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3165"><a href="http://canvasjs.com/docs/charts/basics-of-creating-html5-chart/">docs   <i class="icon-book"></i></a></li>
+<li id="menu-item-8700" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8700"><a href="http://canvasjs.com/forums/">support <i class="icon-comment"></i></a></li>
+<li id="menu-item-3177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3177"><a href="http://canvasjs.com/blog/">blog  <i class="icon-bullhorn"></i></a></li>
+<li id="menu-item-6229" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6229"><a target="_blank" href="https://angel.co/canvasjs/jobs">we are hiring! <i class="icon-user"></i></a></li>
+</ul></div>						<!--div id="gSearchContainer" class="visible-desktop" style="position:absolute;right:2px; margin-top: 5px;height:150px;width:300px;"-->								
+            <div id="gSearchContainer" class="visible-desktop" style="position:fixed;z-index:9999; right:2px; margin-top: 5px;height:150px;width:300px;">								
+				<div id="gSearch" style="position: absolute; right: 35px; margin-top: 0px; max-height: 27px; max-width: 185px; width: 220px;">					
+					<div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-en"><div class="gsc-control-wrapper-cse" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" id="gs_id50" class="gstl_50 " style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" id="gsc-i-id1" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; outline: none; background: url(&quot;http://www.google.com/cse/static/en/google_custom_search_watermark.gif&quot;) 0% 50% no-repeat rgb(255, 255, 255);" dir="ltr" spellcheck="false"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" style="display: none;"><span class="gscb_a" id="gs_cb50">×</span></a></div></td></tr></tbody></table></div><input type="hidden" name="bgresponse" id="bgresponse"></td><td class="gsc-search-button"><input type="image" src="./Chart Editor - CanvasJS_files/search_box_icon.png" class="gsc-search-button gsc-search-button-v2" title="search"></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table><table cellspacing="0" cellpadding="0" class="gsc-branding"><tbody><tr><td class="gsc-branding-user-defined"></td><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img"><img src="./Chart Editor - CanvasJS_files/small-logo.png" class="gsc-branding-img"></td></tr></tbody></table></form><div class="gsc-results-wrapper-overlay"><div class="gsc-results-close-btn" tabindex="0"></div><div class="gsc-tabsAreaInvisible"><div class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Custom Search</div><span class="gs-spacer"> </span></div><div class="gsc-tabsAreaInvisible"></div><div class="gsc-above-wrapper-area-invisible"><table cellspacing="0" cellpadding="0" class="gsc-above-wrapper-area-container"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sort by:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><table cellspacing="0" cellpadding="0" class="gsc-resultsHeader"><tbody><tr><td class="gsc-twiddleRegionCell"><div class="gsc-twiddle"><div class="gsc-title">Web</div></div><div class="gsc-stats"></div><div class="gsc-results-selector gsc-all-results-active"><div class="gsc-result-selector gsc-one-result" title="show one result">&nbsp;</div><div class="gsc-result-selector gsc-more-results" title="show more results">&nbsp;</div><div class="gsc-result-selector gsc-all-results" title="show all results">&nbsp;</div></div></td><td class="gsc-configLabelCell"></td></tr></tbody></table><div><div class="gsc-expansionArea"></div></div></div></div></div></div><div class="gsc-modal-background-image" tabindex="0"></div></div></div></div>							
+				</div>				
+				<button id="gSearchButton" style="position: absolute; right: 2px; margin-top: 0px; max-height: 29px;" class="btn btn-success"><i class="icon-search"></i></button>
+			</div>		
+				
+			<!--div class="visible-desktop" style="position:absolute;right:10px;top:12px;"><a href="https://twitter.com/canvasjs" class="twitter-follow-button " data-show-count="false"  data-show-screen-name="false"></a></div-->
+			          </div>
+        </div>
+      </div>
+      <div class="container">
+        <br>
+        <!-- End Header. Begin Template Content -->
+
+	
+<script type="text/javascript">
+$script.ready(['BsCcForPreUnvInvDem'], function () {
+	jQuery(document).ready(function($) {
+
+		var urlFetchSuccess = 0;
+
+		function getUrlId() {
+			var vars = {};
+		// window.location.href.replace
+		var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+			vars[key] = value;
+		});
+		return vars;
+	}
+	url = getUrlId()["id"];
+
+	url = decodeURIComponent(url);
+	if (url !== "undefined"){
+
+		var defaultCode = jQuery("#preview1").attr('data-content');
+		jQuery("#preview1").attr('data-content', "");
+
+		$.ajax({ type: "GET",
+			url: url + "?ga=false",
+			async: true,
+			success : function(text){
+				urlFetchSuccess = 1;
+				// console.log(text);
+				content = text;
+				// editor.setValue(content)
+
+				//jQuery("#code1")[0].value = content;
+				jQuery("#preview1").attr('data-content', content);
+
+				var editorDom = $('.CodeMirror');
+				var editor;
+				if(editorDom && editorDom.length > 0)
+				{
+					editor = editorDom[0].CodeMirror;
+					editor.setValue(content);
+				}
+
+				//codeMirrorAdd("preview1", "code1");
+			},
+			error: function(){
+				urlFetchSuccess = 0;
+				editor.setValue(defaultCode);
+				console.log("invalid URL.");
+			}
+		});
+	}
+	else {
+		//jQuery("#preview1").attr('data-content', defaultCode);
+		//editor.setValue(defaultCode);
+	}
+
+	});
+
+});
+</script>
+
+	<div class="container">
+		<div class="row">
+			<div class="span8">
+				<span class="label label-warning">CanvasJS </span>
+
+<iframe id="preview1" class="codemirrorIframe" data-content="&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+	window.onload = function () {
+
+		var dps = []; // dataPoints
+
+		var chart = new CanvasJS.Chart(&quot;chartContainer&quot;,{
+			title :{
+				text: &quot;Live Random Data&quot;
+			},			
+			data: [{
+				type: &quot;line&quot;,
+				dataPoints: dps 
+			}]
+		});
+
+		var xVal = 0;
+		var yVal = 100;	
+		var updateInterval = 100;
+		var dataLength = 500; // number of dataPoints visible at any point
+
+		var updateChart = function (count) {
+			count = count || 1;
+			// count is number of times loop runs to generate random dataPoints.
+			
+			for (var j = 0; j &lt; count; j++) {	
+				yVal = yVal +  Math.round(5 + Math.random() *(-5-5));
+				dps.push({
+					x: xVal,
+					y: yVal
+				});
+				xVal++;
+			};
+			if (dps.length &gt; dataLength)
+			{
+				dps.shift();				
+			}
+			
+			chart.render();		
+
+		};
+
+		// generates first set of dataPoints
+		updateChart(dataLength); 
+
+		// update chart after specified time. 
+		setInterval(function(){updateChart()}, updateInterval); 
+
+	}
+	&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;/assets/script/canvasjs.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div id=&quot;chartContainer&quot; style=&quot;height: 300px; width:100%;&quot;&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+">
+</iframe>
+
+			<textarea class="codemirrorEditor" name="code" id="code1" cols="15" rows="20" style="margin: 2px; display: none;"></textarea><div class="CodeMirror CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 6.59375px; left: 5.59375px;"><textarea wrap="off" autocorrect="off" autocapitalize="off" style="position: absolute; padding: 0px; width: 1px; height: 1em;"></textarea></div><div class="CodeMirror-scrollbar" style="display: block; height: 320px;"><div class="CodeMirror-scrollbar-inner" style="height: 866px;"></div></div><div class="CodeMirror-scroll cm-s-default" tabindex="-1"><div style="position: relative; min-height: 866px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-gutter" style="display: none;"><div class="CodeMirror-gutter-text"></div></div><div class="CodeMirror-lines"><div style="position: relative; z-index: 0; outline: none;"><div style="position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden;"></div><pre class="CodeMirror-cursor" style="top: 0px; left: 0px;">&nbsp;</pre><pre class="CodeMirror-cursor" style="visibility: hidden;">&nbsp;</pre><div style="position: relative; z-index: -1; display: none;"></div><div><pre><span class="cm-meta">&lt;!DOCTYPE HTML&gt;</span></pre><pre><span class="cm-tag">&lt;html&gt;</span></pre><pre> </pre><pre><span class="cm-tag">&lt;head&gt;</span></pre><pre><span class="cm-tab">    </span><span class="cm-tag">&lt;script</span> <span class="cm-attribute">type</span>=<span class="cm-string">"text/javascript"</span><span class="cm-tag">&gt;</span></pre><pre><span class="cm-tab">    </span><span class="cm-variable">window</span>.<span class="cm-property">onload</span> = <span class="cm-keyword">function</span> () {</pre><pre> </pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-keyword">var</span> <span class="cm-def">dps</span> = []; <span class="cm-comment">// dataPoints</span></pre><pre> </pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-keyword">var</span> <span class="cm-def">chart</span> = <span class="cm-keyword">new</span> <span class="cm-variable">CanvasJS</span>.<span class="cm-property">Chart</span>(<span class="cm-string">"chartContainer"</span>,{</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-property">title</span> :{</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-property">text</span>: <span class="cm-string">"Live Random Data"</span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span>},<span class="cm-tab">  </span><span class="cm-tab">    </span><span class="cm-tab">    </span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-property">data</span>: [{</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-property">type</span>: <span class="cm-string">"line"</span>,</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-property">dataPoints</span>: <span class="cm-variable-2">dps</span> </pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span>}]</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span>});</pre><pre> </pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-keyword">var</span> <span class="cm-def">xVal</span> = <span class="cm-number">0</span>;</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-keyword">var</span> <span class="cm-def">yVal</span> = <span class="cm-number">100</span>;<span class="cm-tab"> </span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-keyword">var</span> <span class="cm-def">updateInterval</span> = <span class="cm-number">100</span>;</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-keyword">var</span> <span class="cm-def">dataLength</span> = <span class="cm-number">500</span>; <span class="cm-comment">// number of dataPoints visible at any point</span></pre><pre> </pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-keyword">var</span> <span class="cm-def">updateChart</span> = <span class="cm-keyword">function</span> (<span class="cm-def">count</span>) {</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-variable-2">count</span> = <span class="cm-variable-2">count</span> || <span class="cm-number">1</span>;</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-comment">// count is number of times loop runs to generate random dataPoints.</span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-keyword">for</span> (<span class="cm-keyword">var</span> <span class="cm-def">j</span> = <span class="cm-number">0</span>; <span class="cm-variable-2">j</span> &lt; <span class="cm-variable-2">count</span>; <span class="cm-variable-2">j</span>++) {<span class="cm-tab">   </span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-variable">yVal</span> = <span class="cm-variable">yVal</span> +  <span class="cm-variable">Math</span>.<span class="cm-property">round</span>(<span class="cm-number">5</span> + <span class="cm-variable">Math</span>.<span class="cm-variable">random</span>() *(<span class="cm-number">-5-5</span>));</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-variable">dps</span>.<span class="cm-property">push</span>({</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-property">x</span>: <span class="cm-variable">xVal</span>,</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-property">y</span>: <span class="cm-variable">yVal</span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span>});</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-variable">xVal</span>++;</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span>};</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-keyword">if</span> (<span class="cm-variable">dps</span>.<span class="cm-property">length</span> &gt; <span class="cm-variable">dataLength</span>)</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span>{</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-variable">dps</span>.<span class="cm-property">shift</span>();<span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span>}</pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-variable">chart</span>.<span class="cm-property">render</span>();<span class="cm-tab"> </span><span class="cm-tab">    </span></pre><pre> </pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span>};</pre><pre> </pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-comment">// generates first set of dataPoints</span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-variable-2">updateChart</span>(<span class="cm-variable-2">dataLength</span>); </pre><pre> </pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-comment">// update chart after specified time. </span></pre><pre><span class="cm-tab">    </span><span class="cm-tab">    </span><span class="cm-variable">setInterval</span>(<span class="cm-keyword">function</span>(){<span class="cm-variable">updateChart</span>()}, <span class="cm-variable-2">updateInterval</span>); </pre><pre> </pre><pre><span class="cm-tab">    </span>}</pre><pre><span class="cm-tab">    </span><span class="cm-tag">&lt;/script&gt;</span></pre><pre><span class="cm-tab">    </span><span class="cm-tag">&lt;script</span> <span class="cm-attribute">type</span>=<span class="cm-string">"text/javascript"</span> <span class="cm-attribute">src</span>=<span class="cm-string">"/assets/script/canvasjs.min.js"</span><span class="cm-tag">&gt;&lt;/script&gt;</span></pre><pre><span class="cm-tag">&lt;/head&gt;</span></pre><pre><span class="cm-tag">&lt;body&gt;</span></pre><pre><span class="cm-tab">    </span><span class="cm-tag">&lt;div</span> <span class="cm-attribute">id</span>=<span class="cm-string">"chartContainer"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"height: 300px; width:100%;"</span><span class="cm-tag">&gt;</span></pre><pre><span class="cm-tab">    </span><span class="cm-tag">&lt;/div&gt;</span></pre><pre><span class="cm-tag">&lt;/body&gt;</span></pre><pre><span class="cm-tag">&lt;/html&gt;</span></pre><pre> </pre></div></div></div></div></div></div></div>
+		</div>
+		<!-- span8 -->
+	</div> <!-- row -->
+</div> 	<!-- container -->
+</div> <!-- outer container  -->
+<div id="push"></div>
+</div> <!-- wrap -->
+<!-- End Template Content -->
+
+<div id="searchDialog" class="modal hide fade">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3>Didn't find what you were looking for?</h3>
+	</div>
+	<div class="modal-body">
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="span4 text-center">
+					<h4 class="">Try Searching:</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span4">
+					<input id="modalSearchInput" name="loc" class="span4" type="text" placeholder="Line Chart, Pie Chart, etc.">
+				</div>
+
+				<div class="span1">
+					<button id="modalSearchButton" type="submit" class="btn btn-success"> Search</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="hidden-phone footer">
+ <div class="container">
+  <div class="row-fluid">
+   <div class="span3"><p><strong>© 2013 fenopix</strong><br><a href="mailto:info@canvasjs.com">info@canvasjs.com</a><br><a href="http://canvasjs.com/privacy-policy/">Privacy Policy</a></p></div>
+   <div class="span3"><p><strong>Browse</strong><br><a href="http://canvasjs.com/javascript-charts/">JavaScript Charts</a><br><a href="http://canvasjs.com/download-html5-charting-graphing-library/">Download</a><br><a href="http://canvasjs.com/license-canvasjs/">License</a></p> </div>
+   <div class="span3"><p><strong>Key</strong><br><a href="http://canvasjs.com/docs/charts/basics-of-creating-html5-chart/">Documentation</a><br><a href="http://canvasjs.com/blog/">Blog</a></p> </div>
+   <div class="span3"><p><strong>Contact</strong><br><a href="mailto:sales@canvasjs.com" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Sales Enquiries</a><br><a href="http://canvasjs.com/forums/">Support Forum</a><br><a href="https://twitter.com/canvasjs" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Twitter Support Handle</a></p></div>
+
+ </div>
+</div> <!-- /container -->
+</div>
+
+<div class="visible-phone footer">
+ <div class="container">
+
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+
+        <th class="topFoot">Browse</th>
+        <th class="topFoot">Key</th>
+        <th class="topFoot">Contact</th>
+      </tr>
+      </thead><tbody>
+        <tr>
+          <td><a href="http://canvasjs.com/javascript-charts/">JavaScript Charts</a></td>
+          <td><a href="http://canvasjs.com/docs/charts/basics-of-creating-html5-chart/">Docs</a></td>
+          <td><a href="mailto:sales@canvasjs.com">sales@canvasjs.com</a></td>
+        </tr>
+
+        <tr>
+          <td><a href="http://canvasjs.com/download-html5-charting-graphing-library/">Download</a></td>
+          <td><a href="http://canvasjs.com/forums/">Support</a></td>
+          <td></td>
+
+        </tr>
+
+        <tr>
+          <td><a href="http://canvasjs.com/license-canvasjs/">License</a></td>
+          <td><a href="http://canvasjs.com/blog/">Blog</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+	<p style="text-align: center;">
+     <a href="http://canvasjs.com/privacy-policy/">Privacy Policy</a>&nbsp;&nbsp;©  2013 fenopix
+   </p>
+ </div> <!-- /container -->
+</div>
+<script type="text/javascript" src="./Chart Editor - CanvasJS_files/devicepx-jetpack.js"></script>
+<script type="text/javascript" src="./Chart Editor - CanvasJS_files/comment-reply.min.js"></script>
+<script type="text/javascript" src="./Chart Editor - CanvasJS_files/wp-embed.min.js"></script>
+<!-- foot -->
+
+	<style type="text/css">
+	.fb_iframe_widget iframe {
+
+	  left: 0px;
+	}
+	</style>
+
+
+<script type="text/javascript">
+
+	var isGSearchVisible = false;	
+	function loadGSearch(animate){
+		
+		if(!isGSearchVisible){
+			isGSearchVisible = true; 
+			 
+				(function() {
+					var cx = '003885473777254040257:tc5-nrqnihg';
+					var gcse = document.createElement('script');
+					gcse.type = 'text/javascript';
+					gcse.async = true;
+					gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+						'//cse.google.com/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				})();
+			
+				//Search Engine for Test Purposes
+				/*(function() {
+					var cx = '003885473777254040257:gqvurg7injy';
+					var gcse = document.createElement('script');
+					gcse.type = 'text/javascript';
+					gcse.async = true;
+					gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+						'//cse.google.com/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				})();*/
+				
+				setTimeout(function(){
+					jQuery("#gSearch").animate(
+					{						
+						width: '220px',						
+					}, animate ? 500 : 0);
+				}, animate ? 100 : 0);
+				
+				jQuery("#gSearchButton").on("click", function(){
+					jQuery(".gsc-search-button").trigger( "click" );
+				});
+			}
+	}
+	
+	 jQuery(window).load(function(){
+		 
+		if(cfCountryCode === null)
+		{	
+			jQuery.getJSON("/services/geo.php", function(data){
+				if(data.cfCountryCode){
+					cfCountryCode =  data.cfCountryCode;
+					//cfCountryCode = "GB"
+					//console.log("Service: " + cfCountryCode);
+					jQuery.cookie("cfCountryCode", cfCountryCode, { expires: 365, path: '/' });
+				}
+				
+				for(var i = 0; i < countryCodeCallbacks.length; i++){
+					countryCodeCallbacks[i](cfCountryCode);					
+				}
+				
+				countryCodeCallbacks = [];
+			});
+		}
+		 //isModernBrowser &&
+		 // added search support for IE8-
+		 if ( (isModernBrowser || true) && jQuery(window).width() > 1000) {
+			 
+			 jQuery("#gSearchContainer").on("mouseover",function(){			 
+				
+				loadGSearch();
+				
+			 });
+			 
+			 jQuery("#gSearchButton").show();
+			 
+			 getCountryCode(function(cfCountryCode){
+				 
+				if(jQuery.inArray(cfCountryCode, topCountries) >= 0 ){
+					 <!--Start of Zopim Live Chat Script-->
+
+					window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+					d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+					_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+					$.src="//v2.zopim.com/?14p6ACoNGU7hnWgwqcbkklq10WeJOQta";z.t=+new Date;$.
+					type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+
+					<!--End of Zopim Live Chat Script-->
+				}
+			 });
+		}
+
+		jQuery(".canvasjsEvent").click(function(){
+			var gaEvent = jQuery(this).data("gaevent");
+			//alert(" " + gaEvent.category + gaEvent.action + gaEvent.label + gaEvent.value);
+			if(typeof(_gaq) !== "undefined")
+				_gaq.push(['_trackEvent', gaEvent.category, gaEvent.action, gaEvent.label, gaEvent.value]);
+
+		});
+
+		$script.ready(["BsCcForPreUnvInvDem"], function(){
+
+			var codeArray = jQuery(".codemirrorEditor");
+			var frameArray = jQuery(".codemirrorIframe");
+			for (var i = 0; i < codeArray.length; i++) {
+				codeMirrorAdd(frameArray[i].id,codeArray[i].id);
+			}
+
+			function  codeMirrorAdd(preview,code){
+			var delay;
+			var editor = CodeMirror.fromTextArea(document.getElementById(code), {
+			  mode: 'htmlmixed',
+			  smartIndent: true,
+			  tabMode: 'indent',
+			  gutter: false,
+			  lineWrapping: true,
+			  reindentOnLoad: true,
+			  autoMatchParens: true,
+			  onChange: function () {
+					//updatePreview(editor, preview);
+					clearTimeout(delay);
+					delay = setTimeout(function () {
+					  updatePreview(editor, preview);
+					}, 300);
+				  }
+				});
+
+			var content = jQuery("#"+preview).attr('data-content');
+			 // console.log(content);
+
+			 if (content)
+			   editor.setValue(content);
+			}
+
+			//var updateCount = 0;
+			function updatePreview(editor, id) {
+				//console.log("update: " + updateCount++);
+				var previewFrame = document.getElementById(id);
+				var preview = previewFrame.contentDocument || previewFrame.contentWindow.document;
+				preview.open();
+				preview.write(editor.getValue());
+				preview.close();
+			}
+
+
+			// removing allowed tags from form
+			jQuery(".form-allowed-tags").hide();
+
+			// Highligting current page in nav menue tags
+			jQuery(".current-menu-item").addClass("active");
+			jQuery(".current_page_parent").addClass("active");
+
+			jQuery(document).ready(function($) {
+				$("img.lazy").unveil(200);
+			});
+			
+
+			var bounceTime = 20000;
+			var bounceVisitCount = 10;
+			var pageReadyTime = new Date();			
+			var excludeCountryCode = ["US"];
+
+			var pageCount = jQuery.cookie("pageCount", Number) || 0;
+			jQuery.cookie("pageCount", ++pageCount, { expires: 365, path: '/' });
+			
+			var searchModalShown = jQuery.cookie("searchModalShown", Boolean) || false;	
+			
+			if(pageCount > 1){
+				loadGSearch(true);
+			}
+
+			//console.log("Page Count: " + pageCount);
+
+			if (pageCount <= bounceVisitCount) {
+				
+				jQuery('#searchDialog').on("shown", function () {
+				jQuery('#modalSearchInput').focus();
+				});
+
+				jQuery('#modalSearchInput').keyup(function (e) {
+					if (e.keyCode == 13) {
+						doSearchFromModal();
+					}
+				});
+
+				jQuery("#modalSearchButton").on("click", function () {
+					doSearchFromModal();
+				});
+
+				function doSearchFromModal() {
+					var searchString = jQuery("#modalSearchInput").val();
+					if (searchString && searchString.length) {
+						jQuery(".gsc-input").val(jQuery("#modalSearchInput").val());
+						jQuery(".gsc-search-button").trigger("click");
+					}
+				}
+				
+				jQuery(window.document).on("mouseout", function (e) {
+					var pageX = e.clientX || e.pageX;
+					var pageY = e.clientY || e.pageY;
+					
+					//console.log(e.pageX + "; " + e.pageY);
+					//console.log(e.clientX + "; " + e.clientY);
+					//console.log(pageX + "; " + pageY);
+					
+					if (pageX < 0 || pageY < 0) {
+						
+						loadGSearch(false);
+						
+						var timeSincePageReady = (new Date()).getTime() - pageReadyTime.getTime();
+						if ((!cfCountryCode || (cfCountryCode && jQuery.inArray(cfCountryCode, excludeCountryCode) < 0)) && !searchModalShown &&  timeSincePageReady < bounceTime) {
+							
+							//console.log("Outside the window!");
+							searchModalShown = true;
+							jQuery.cookie("searchModalShown", true, { expires: 365, path: '/' });
+														
+							if(typeof(_gaq) !== "undefined"){
+								var timeBucketLow = Math.floor(timeSincePageReady / 5000) * 5;
+								//console.log(timeBucketLow + " - " + (timeBucketLow + 5));
+								_gaq.push(['_trackEvent', "UnBounce", "Search Modal", timeBucketLow + " - " + (timeBucketLow + 5), 1, true]);
+							}
+														
+							jQuery('#searchDialog').modal({ backdrop: true, keyboard: true, show: true });							
+						}
+					}
+				});
+			}
+			
+		});
+
+		
+		$script("https://fenopix.agilecrm.com/stats/min/agile-min.js", "AgileCRM", function(){
+			_agile.set_account('1hlpkvg7im3jjk429mc7i7gurb', 'fenopix');
+			_agile.set_tracking_domain ('canvasjs.com');
+			
+						
+			_agile.track_page_view();  _agile_execute_web_rules();
+		});		
+		
+	});
+</script>
+
+
+<!--[if IE 6]>
+<script>
+    jQuery(function(){if($.browser.msie&&parseInt($.browser.version,10)===6){jQuery('.row div[class^="span"]:last-child').addClass("last-child");jQuery('[class*="span"]').addClass("margin-left-20");jQuery(':button[class="btn"], :reset[class="btn"], :submit[class="btn"], input[type="button"]').addClass("button-reset");jQuery(":checkbox").addClass("input-checkbox");jQuery('[class^="icon-"], [class*=" icon-"]').addClass("icon-sprite");jQuery(".pagination li:first-child a").addClass("pagination-first-child")}});
+</script>
+<![endif]-->
+
+
+
+<script type="application/javascript" src="./Chart Editor - CanvasJS_files/stats"></script><script type="application/javascript" src="./Chart Editor - CanvasJS_files/addstats"></script><script type="application/javascript" src="./Chart Editor - CanvasJS_files/web-rules"></script><table cellspacing="0" cellpadding="0" class="gstl_50 gssb_c" style="width: 208px; display: none; top: 35px; position: absolute; left: 1128px;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table></body></html>
